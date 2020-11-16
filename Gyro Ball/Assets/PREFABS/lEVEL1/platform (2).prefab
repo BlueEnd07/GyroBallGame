@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7086437451460104571}
   - component: {fileID: 7086437451460104570}
   - component: {fileID: 7086437451460104569}
-  - component: {fileID: 7086437451460104568}
-  - component: {fileID: 7086437451460104575}
-  - component: {fileID: 7086437451460104574}
+  - component: {fileID: -2106190850538609136}
+  - component: {fileID: 8521589028358926182}
+  - component: {fileID: 4365981793623230516}
   m_Layer: 0
   m_Name: platform (2)
   m_TagString: Untagged
@@ -28,9 +28,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7086437451460104573}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 92.90409, y: -5.7390723, z: 0.83909464}
-  m_LocalScale: {x: 27, y: 1, z: 8}
+  m_LocalRotation: {x: -6.123235e-17, y: 1, z: 6.123235e-17, w: 0.00000019470718}
+  m_LocalPosition: {x: -0.86, y: -0, z: 9.26}
+  m_LocalScale: {x: 13, y: 13, z: 13}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -42,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7086437451460104573}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: -462981019419857548, guid: 4f2f5a45103eb69449a9fff35d0bbb9f, type: 3}
 --- !u!23 &7086437451460104569
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ce6926b126575f84aaf4278d99556f04, type: 2}
+  - {fileID: 2100000, guid: 23331ce21e9d70340a92c5ea098887e4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &7086437451460104568
+--- !u!65 &-2106190850538609136
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,9 +93,9 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7086437451460104575
+  m_Size: {x: 1.8150215, y: 0.54900575, z: 0.8063042}
+  m_Center: {x: 0.056397766, y: -0.2514242, z: 0.03860508}
+--- !u!114 &8521589028358926182
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 100
---- !u!54 &7086437451460104574
+--- !u!54 &4365981793623230516
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
